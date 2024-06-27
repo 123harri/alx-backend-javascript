@@ -11,7 +11,8 @@ class EVCar extends Car {
   }
 
   cloneCar() {
-    return new Car(); // Ensure cloneCar returns a new instance of Car
+    // Create a new instance of Car with cloned attributes
+    return new Car(this._brand, this._motor, this._color);
   }
 }
 
