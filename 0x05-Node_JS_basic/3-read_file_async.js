@@ -1,4 +1,3 @@
-#!/usr/bin/node
 // 3-read_file_async.js
 
 const fs = require('fs');

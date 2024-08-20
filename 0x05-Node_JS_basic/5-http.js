@@ -1,4 +1,3 @@
-#!/usr/bin/node
 // 5-http.js
 
 const http = require('http');

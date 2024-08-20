@@ -1,4 +1,3 @@
-#!/usr/bin/node
 // 6-http_express.js
 
 const express = require('express');
