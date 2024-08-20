@@ -1,18 +1,14 @@
-// 6-http_express.js
-
 const express = require('express');
 
 const app = express();
+const PORT = 1245;
 
-// Define the root route
-app.get('/', (req, res) => {
-    res.send('Hello Holberton School!');
+app.get('/', (_, res) => {
+  res.send('Hello Holberton School!');
 });
 
-// Start the server and listen on port 1245
-app.listen(1245, () => {
-    console.log('Server listening on port 1245');
+app.listen(PORT, () => {
+  console.log(`Server listening on PORT ${PORT}`);
 });
 
 module.exports = app;
-
