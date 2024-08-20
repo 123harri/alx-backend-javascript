@@ -1,8 +1,7 @@
-#!/usr/bin/node
-// 0-console.js
+// 0-console.j
 
 function displayMessage(message) {
-    console.log(message);
+  console.log(message);
 }
 
 module.exports = displayMessage;
